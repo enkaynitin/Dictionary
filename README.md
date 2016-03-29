@@ -9,21 +9,34 @@
 
 
 
+#Features
+  * Sign In/Out
+  * Search for a word - get meaning
 
+#TODO
 
-#Requires 
+##Models(data)
+  * users
+  * words
 
-sign in.
+## Django Server API
+  * /users/register (creates a users)
+  * /users/sign-in  (signin a user)
+  * /users/sign-out (signout a user)
+  * /dictionary/suggest/:pattern (get word suggestions for a pattern)
+  * /words/:id/ (get meaning for a word)
+  * /words/new (add a word/meaning to dictionary)
+  * /words/:id/edit (edit a word/meaning already in dictionary)
+  * /words/:id/delete (delete a word/meaning from dictionary)
 
-Django server
+## Frontend
+  * page layout
+  * index page
+  * search component
+  * result (for showing meaning)
+  
+##poppulate data into dictionary 
 
-search box
-meaaning
+##http api
 
-API
-
-poppulate data 
-
-http api
-
-html
+##html
